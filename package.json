@@ -1,0 +1,30 @@
+{
+  "name": "expoicw2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/testeo.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabarce2000/ExpoICW2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabarce2000/ExpoICW2/issues"
+  },
+  "homepage": "https://github.com/gabarce2000/ExpoICW2#readme"
+}
