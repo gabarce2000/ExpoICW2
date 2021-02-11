@@ -5,7 +5,7 @@ routes.get('/servidor',(req, res)=>{
     res.send('Bienvendios a mi servidoffffr');
 })
 routes.post('/aplicacion',(req, res)=>{
-    res.send('Bienvendios a mi aplicacion');
+    res.send('Bienvendios a mi aplicacioññññññññn');
 })
 
 routes.listen(3000, (req, res)=>{
