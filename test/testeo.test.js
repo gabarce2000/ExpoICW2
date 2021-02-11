@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../index')
 
 
-describe('RUTA DE LECTURA PARA EL CREAR EL GET DEL SERVIOR', () => {
+describe('RUTA DE LECTURA PARA EL CREAR EL GET DEL SERVIOR...', () => {
     it('Esto deberia responder el get del servidor creado', done => {
         request(app)
             .get('/servidor')
