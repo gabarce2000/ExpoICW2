@@ -2,7 +2,7 @@ const express= require('express');
 const routes = express();
 
 routes.get('/servidor',(req, res)=>{
-    res.send('Bienvendios a mi servidor');
+    res.send('Bienvendios a mi servidoffffr');
 })
 routes.post('/aplicacion',(req, res)=>{
     res.send('Bienvendios a mi aplicacion..');
