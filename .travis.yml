@@ -1,7 +1,2 @@
 language: node_js
 node_js: 14.15.0
-install:
-  - npm ci
-  - npm install
- script: 
-  - npm test 
